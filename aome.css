@@ -1,0 +1,62 @@
+body {
+background-image: linear-gradient( 135deg, #69FF97 10%, #00E4FF 100%);
+}
+
+.header {
+  padding: 30px;
+  text-align: center;
+  background-size:cover;
+  border:0px solid black;
+}
+
+.topnav {
+  border:0px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	flex-wrap: wrap;
+	flex-shrink: 0;
+}
+
+.topnav a {
+      border: 2px solid rgba(0,0,0,0.20);
+      border-radius: 12px;
+      font-size: 16px;
+      color: black;
+      letter-spacing: 1px;
+      text-decoration: none;
+      text-transform: uppercase;
+      padding: 10px 25px;
+      display: inline-block;
+      margin-right: 15px;
+}
+
+.topnav a:hover {
+    color: black;
+    gap: 20px;
+    border-radius: 10px;
+    backdrop-filter: blur(5px);
+    background-color: rgba(0,191,255, 0.075);
+    box-shadow: rgba(0, 0, 0, 0.3) 2px 8px 8px;
+    border: 2px rgba(255,255,255,0.4) solid;
+    border-bottom: 2px rgba(40,40,40,0.35) solid;
+    border-right: 2px rgba(40,40,40,0.35) solid;
+}
+
+#music {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    color: white;
+    gap: 20px;
+    border-radius: 18px;
+    backdrop-filter: blur(2px);
+    background-color: rgba(19,21,21, 0.15);
+    box-shadow: rgba(0, 0, 0, 0.3) 2px 8px 8px;
+    border: 2px rgba(255,255,255,0.4) solid;
+    border-bottom: 2px rgba(40,40,40,0.35) solid;
+    border-right: 2px rgba(40,40,40,0.35) solid;
+}
